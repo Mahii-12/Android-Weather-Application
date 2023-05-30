@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="add_newcity">Add New city</string>
+    <string name="centigrade">27°C</string>
+</resources>

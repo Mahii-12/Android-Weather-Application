@@ -1,0 +1,130 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3FA9DC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/weather_forecast"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_x="58dp"
+        android:layout_y="2dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Weather Forecast"
+        android:textSize="25sp"
+        android:textAllCaps="true"
+        android:textColor="@color/material_dynamic_neutral_variant20"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="61dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_x="346dp"
+        android:layout_y="140dp"
+        android:src="@drawable/download1" />
+
+    <Button
+        android:id="@+id/AddnewCity"
+        android:layout_width="291dp"
+        android:layout_height="77dp"
+        android:layout_x="55dp"
+        android:layout_y="117dp"
+        android:text="@string/add_newcity"
+        android:textSize="25sp"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="45dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_x="95dp"
+        android:layout_y="241dp"
+        android:src="@drawable/download21" />
+
+    <TextView
+        android:id="@+id/cityname"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="244dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Hyderabad"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/txtDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/second_black"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/centigrade"
+        android:layout_width="92dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="9sp"
+        android:layout_x="156dp"
+        android:layout_y="405dp"
+        android:gravity="start"
+        android:text="@string/centigrade"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/txtWeatherCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|start"
+        android:paddingEnd="0sp"
+        android:paddingStart="5sp"
+        android:text=""
+        android:textColor="@color/second_black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtTemperature"
+        android:layout_width="108dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="4sp"
+        android:layout_x="89dp"
+        android:layout_y="398dp"
+        android:gravity="start"
+        android:text=""
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="84dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="26dp"
+        android:layout_x="159dp"
+        android:layout_y="508dp"
+        android:src="@drawable/cloud" />
+
+    <TextClock
+        android:id="@+id/digital_clock"
+        android:layout_width="187dp"
+        android:layout_height="65dp"
+        android:layout_x="113dp"
+        android:layout_y="603dp"
+        android:format12Hour="hh:mm a"
+        android:textColor="@color/second_black"
+        android:textSize="14sp" />
+
+</AbsoluteLayout>
+
+
